@@ -1,7 +1,7 @@
 #Author: Homer Baldon
-#Keywords Summary :
+#Summary : Automation test which is to validate an API endpoint.
 #Feature: Test Assurity API
-#Scenario: Verify Name, Verify CanRelist, Verify Element with Name = 'Gallery'
+#Scenario: Verify Name, Verify CanRelist, Verify the Promotions element with Name = Gallery
 
 Feature: Test Assurity API
 
