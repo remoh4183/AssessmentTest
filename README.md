@@ -2,4 +2,7 @@
       Automation test which is to validate an API endpoint.
 
 
-# How to Run the Test
+# Requirements
+      * Eclipse IDE for Java Developers
+      * Clone this Git Project to local machine
+      * Make sure to use Java 1.8 for this project
