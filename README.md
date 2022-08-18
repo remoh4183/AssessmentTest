@@ -1,6 +1,16 @@
 # AssessmentTest
       Automation test which is to validate an API endpoint.
 
+# Test Automation Framework and its Design
+      This API test automation is using the popular Karate framework. Karate is an open-source framework for API Test automation that uses BDD style syntax.  
+      Karate framework saves its scenarios in a feature files.  On this project, the test objective is to validate the following test:
+            API endpoint url: https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
+            Acceptance Criteria:
+                  1. Name = "Carbon credits"
+                  2. CanRelist = true
+                  3. The Promotions element with Name = "Gallery" has a Description that contains the text "Good position in category"
+      On this project, all scenarios are placed under one feature file. 
+      User should be able to see the "assurity.feature" file under "src/test/java"/"features" package.
 
 # Requirements
       * Eclipse IDE for Java Developers
@@ -27,7 +37,7 @@
                   4.2 On Libraries tab, select the current JRE System Library and click Remove button
                   4.3 Click Add Library button
                   4.4 Select JRE System Library and click Next
-                  4.4 On the Select Alternate JRE field.  On this field, select JDK 1.8.... If not available, click Installed JREs
+                  4.4 On the Select Alternate JRE field,  select JDK 1.8.... If not available, click Installed JREs
                   4.5 Click Add button
                   4.6 Select Standard VM and click Next button
                   4.7 Click Directory button and locate the java jdk 1.8 folder then click Finish button
@@ -35,4 +45,18 @@
                   4.9 Click Apply and Close button then Click Finish button
                   4.10 On the Libraries tab, JRE System Library should now indicate jdk 1.8
                   4.11 Click Apply and Close button
+
+# How to Run
+      * Using Eclipse IDE, you should be able to quicly execute the test execution.
+            1. Open Eclipse and Navigate to the Project folder in the Project Explorer
+            2. Under "src/test/java"/"features" package, you should be able to see TestRunner.java
+            3. Right click on TestRunner.java then select "Run as" then select "JUnit Test"
+            4. After execution is complete, check the Console tab and copy the HTML link report.  It's usually indicated in the last line.
+            5. Open it in your chrome browser and should be able to see the detailed test execution report.
+
+# How to check the test scenarios
+      * Using Eclipse IDE, you should be able to see the scenarios on this project.
+            1. Open Eclipse and Navigate to the Project folder in the Project Explorer
+            2. Under "src/test/java"/"features" package, you should be able to see "assurity.feature" file
+            3. Open "assurity.feature" file 
                   
