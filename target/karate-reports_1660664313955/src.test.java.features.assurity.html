@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("b18fd8d2-3d77-4fcb-9079-48dad8906357",{name:"Hera Baldon"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.features.assurity</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-08-16 11:35:12 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>Verify Name</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:16]"><span>[2:16]</span> <span>Verify CanRelist</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:24]"><span>[3:24]</span> <span>The Promotions element with Name = Gallery</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/features/assurity.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Test Assurity API</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">Verify Name</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1021</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1003</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">23:35:10.902 request:
+1 &gt; GET https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
+1 &gt; Host: api.tmsandbox.co.nz
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+23:35:11.363 response time in milliseconds: 455
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 1398
+1 &lt; Content-Type: application/json
+1 &lt; ETag: &quot;XrQ7a3WGz9ANtbrp0tIirJIhAM8=&quot;
+1 &lt; X-Correlation-ID: 9e570240-e47c-4851-87bc-028f795fe1e2
+1 &lt; X-Request-ID: 995d2f05-d8ad-460f-8e26-93631a2151f3
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Expose-Headers: ETag
+1 &lt; X-POWERED-BY: 
+1 &lt; X-ASPNET-VERSION: 
+1 &lt; Accept-Ranges: bytes
+1 &lt; Date: Tue, 16 Aug 2022 15:35:13 GMT
+1 &lt; Strict-Transport-Security: max-age=31536000
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; Referrer-Policy: no-referrer
+{&quot;CategoryId&quot;:6327,&quot;Name&quot;:&quot;Carbon credits&quot;,&quot;Path&quot;:&quot;\/Business-farming-industry\/Carbon-credits&quot;,&quot;CanListAuctions&quot;:true,&quot;CanListClassifieds&quot;:true,&quot;CanRelist&quot;:true,&quot;LegalNotice&quot;:&quot;Compliance Declaration\u000aI confirm that these carbon credits are certified and registered with a carbon credits registry. &quot;,&quot;DefaultDuration&quot;:14,&quot;AllowedDurations&quot;:[2,3,4,5,6,7,10,14],&quot;Fees&quot;:{&quot;Bundle&quot;:15.0000,&quot;EndDate&quot;:0.2500,&quot;Feature&quot;:10.0000,&quot;Gallery&quot;:2.0000,&quot;Listing&quot;:29.0000,&quot;Reserve&quot;:0.2500,&quot;Subtitle&quot;:0.5500,&quot;TenDays&quot;:0.2500,&quot;ListingFeeTiers&quot;:[{&quot;MinimumTierPrice&quot;:0,&quot;FixedFee&quot;:29.00}],&quot;SecondCategory&quot;:0.9900},&quot;FreePhotoCount&quot;:20,&quot;MaximumPhotoCount&quot;:20,&quot;IsFreeToRelist&quot;:true,&quot;Promotions&quot;:[{&quot;Id&quot;:1,&quot;Name&quot;:&quot;Basic&quot;,&quot;Description&quot;:&quot;Lowest position in category&quot;,&quot;Price&quot;:0.0000,&quot;MinimumPhotoCount&quot;:0},{&quot;Id&quot;:2,&quot;Name&quot;:&quot;Gallery&quot;,&quot;Description&quot;:&quot;Good position in category&quot;,&quot;Price&quot;:2.0000,&quot;OriginalPrice&quot;:2.0000,&quot;MinimumPhotoCount&quot;:0},{&quot;Id&quot;:3,&quot;Name&quot;:&quot;Feature&quot;,&quot;Description&quot;:&quot;Better position in category&quot;,&quot;Price&quot;:10.0000,&quot;OriginalPrice&quot;:10.0000,&quot;Recommended&quot;:true,&quot;MinimumPhotoCount&quot;:0},{&quot;Id&quot;:4,&quot;Name&quot;:&quot;Feature Combo&quot;,&quot;Description&quot;:&quot;Best position in category \u000aIncludes benefits of Feature \u000aHighlights listing in search results&quot;,&quot;Price&quot;:15.0000,&quot;OriginalPrice&quot;:15.0000,&quot;MinimumPhotoCount&quot;:0}],&quot;EmbeddedContentOptions&quot;:[],&quot;MaximumTitleLength&quot;:80,&quot;AreaOfBusiness&quot;:1,&quot;DefaultRelistDuration&quot;:7,&quot;CanUseCounterOffers&quot;:true}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def jsonResponse = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def actualName = jsonResponse.Name</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match actualName == &#39;Carbon credits&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:16]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:16]</span>
+                <span class="scenario-name">Verify CanRelist</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>289</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">286</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">23:35:11.432 request:
+1 &gt; GET https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
+1 &gt; Host: api.tmsandbox.co.nz
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+23:35:11.712 response time in milliseconds: 280
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 1398
+1 &lt; Content-Type: application/json
+1 &lt; ETag: &quot;XrQ7a3WGz9ANtbrp0tIirJIhAM8=&quot;
+1 &lt; X-Correlation-ID: 08ab8731-e965-4b75-9609-aa854de3e400
+1 &lt; X-Request-ID: 18b51dda-841c-4c07-b9a5-26afa741879d
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Expose-Headers: ETag
+1 &lt; X-POWERED-BY: 
+1 &lt; X-ASPNET-VERSION: 
+1 &lt; Accept-Ranges: bytes
+1 &lt; Date: Tue, 16 Aug 2022 15:35:13 GMT
+1 &lt; Strict-Transport-Security: max-age=31536000
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; Referrer-Policy: no-referrer
+{&quot;CategoryId&quot;:6327,&quot;Name&quot;:&quot;Carbon credits&quot;,&quot;Path&quot;:&quot;\/Business-farming-industry\/Carbon-credits&quot;,&quot;CanListAuctions&quot;:true,&quot;CanListClassifieds&quot;:true,&quot;CanRelist&quot;:true,&quot;LegalNotice&quot;:&quot;Compliance Declaration\u000aI confirm that these carbon credits are certified and registered with a carbon credits registry. &quot;,&quot;DefaultDuration&quot;:14,&quot;AllowedDurations&quot;:[2,3,4,5,6,7,10,14],&quot;Fees&quot;:{&quot;Bundle&quot;:15.0000,&quot;EndDate&quot;:0.2500,&quot;Feature&quot;:10.0000,&quot;Gallery&quot;:2.0000,&quot;Listing&quot;:29.0000,&quot;Reserve&quot;:0.2500,&quot;Subtitle&quot;:0.5500,&quot;TenDays&quot;:0.2500,&quot;ListingFeeTiers&quot;:[{&quot;MinimumTierPrice&quot;:0,&quot;FixedFee&quot;:29.00}],&quot;SecondCategory&quot;:0.9900},&quot;FreePhotoCount&quot;:20,&quot;MaximumPhotoCount&quot;:20,&quot;IsFreeToRelist&quot;:true,&quot;Promotions&quot;:[{&quot;Id&quot;:1,&quot;Name&quot;:&quot;Basic&quot;,&quot;Description&quot;:&quot;Lowest position in category&quot;,&quot;Price&quot;:0.0000,&quot;MinimumPhotoCount&quot;:0},{&quot;Id&quot;:2,&quot;Name&quot;:&quot;Gallery&quot;,&quot;Description&quot;:&quot;Good position in category&quot;,&quot;Price&quot;:2.0000,&quot;OriginalPrice&quot;:2.0000,&quot;MinimumPhotoCount&quot;:0},{&quot;Id&quot;:3,&quot;Name&quot;:&quot;Feature&quot;,&quot;Description&quot;:&quot;Better position in category&quot;,&quot;Price&quot;:10.0000,&quot;OriginalPrice&quot;:10.0000,&quot;Recommended&quot;:true,&quot;MinimumPhotoCount&quot;:0},{&quot;Id&quot;:4,&quot;Name&quot;:&quot;Feature Combo&quot;,&quot;Description&quot;:&quot;Best position in category \u000aIncludes benefits of Feature \u000aHighlights listing in search results&quot;,&quot;Price&quot;:15.0000,&quot;OriginalPrice&quot;:15.0000,&quot;MinimumPhotoCount&quot;:0}],&quot;EmbeddedContentOptions&quot;:[],&quot;MaximumTitleLength&quot;:80,&quot;AreaOfBusiness&quot;:1,&quot;DefaultRelistDuration&quot;:7,&quot;CanUseCounterOffers&quot;:true}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def jsonResponse = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def actualCanRelist = jsonResponse.CanRelist</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match actualCanRelist == true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:24]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:24]</span>
+                <span class="scenario-name">The Promotions element with Name = Gallery</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>280</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def javaMethods = Java.type(&#39;pages.JavaMethods&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">257</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.28">23:35:11.741 request:
+1 &gt; GET https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
+1 &gt; Host: api.tmsandbox.co.nz
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+23:35:11.992 response time in milliseconds: 250
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 1398
+1 &lt; Content-Type: application/json
+1 &lt; ETag: &quot;XrQ7a3WGz9ANtbrp0tIirJIhAM8=&quot;
+1 &lt; X-Correlation-ID: 4b4fb6e9-439a-4955-af55-c8c492cce6a6
+1 &lt; X-Request-ID: ba8e2104-c423-4aea-a9c5-8423d0a0d213
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Expose-Headers: ETag
+1 &lt; X-POWERED-BY: 
+1 &lt; X-ASPNET-VERSION: 
+1 &lt; Accept-Ranges: bytes
+1 &lt; Date: Tue, 16 Aug 2022 15:35:14 GMT
+1 &lt; Strict-Transport-Security: max-age=31536000
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; Referrer-Policy: no-referrer
+{&quot;CategoryId&quot;:6327,&quot;Name&quot;:&quot;Carbon credits&quot;,&quot;Path&quot;:&quot;\/Business-farming-industry\/Carbon-credits&quot;,&quot;CanListAuctions&quot;:true,&quot;CanListClassifieds&quot;:true,&quot;CanRelist&quot;:true,&quot;LegalNotice&quot;:&quot;Compliance Declaration\u000aI confirm that these carbon credits are certified and registered with a carbon credits registry. &quot;,&quot;DefaultDuration&quot;:14,&quot;AllowedDurations&quot;:[2,3,4,5,6,7,10,14],&quot;Fees&quot;:{&quot;Bundle&quot;:15.0000,&quot;EndDate&quot;:0.2500,&quot;Feature&quot;:10.0000,&quot;Gallery&quot;:2.0000,&quot;Listing&quot;:29.0000,&quot;Reserve&quot;:0.2500,&quot;Subtitle&quot;:0.5500,&quot;TenDays&quot;:0.2500,&quot;ListingFeeTiers&quot;:[{&quot;MinimumTierPrice&quot;:0,&quot;FixedFee&quot;:29.00}],&quot;SecondCategory&quot;:0.9900},&quot;FreePhotoCount&quot;:20,&quot;MaximumPhotoCount&quot;:20,&quot;IsFreeToRelist&quot;:true,&quot;Promotions&quot;:[{&quot;Id&quot;:1,&quot;Name&quot;:&quot;Basic&quot;,&quot;Description&quot;:&quot;Lowest position in category&quot;,&quot;Price&quot;:0.0000,&quot;MinimumPhotoCount&quot;:0},{&quot;Id&quot;:2,&quot;Name&quot;:&quot;Gallery&quot;,&quot;Description&quot;:&quot;Good position in category&quot;,&quot;Price&quot;:2.0000,&quot;OriginalPrice&quot;:2.0000,&quot;MinimumPhotoCount&quot;:0},{&quot;Id&quot;:3,&quot;Name&quot;:&quot;Feature&quot;,&quot;Description&quot;:&quot;Better position in category&quot;,&quot;Price&quot;:10.0000,&quot;OriginalPrice&quot;:10.0000,&quot;Recommended&quot;:true,&quot;MinimumPhotoCount&quot;:0},{&quot;Id&quot;:4,&quot;Name&quot;:&quot;Feature Combo&quot;,&quot;Description&quot;:&quot;Best position in category \u000aIncludes benefits of Feature \u000aHighlights listing in search results&quot;,&quot;Price&quot;:15.0000,&quot;OriginalPrice&quot;:15.0000,&quot;MinimumPhotoCount&quot;:0}],&quot;EmbeddedContentOptions&quot;:[],&quot;MaximumTitleLength&quot;:80,&quot;AreaOfBusiness&quot;:1,&quot;DefaultRelistDuration&quot;:7,&quot;CanUseCounterOffers&quot;:true}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def jsonResponse = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def actualPromotions = jsonResponse.Promotions</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print actualPromotions</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.32">23:35:12.005 [print] [
+  {
+    &quot;Id&quot;: 1,
+    &quot;Name&quot;: &quot;Basic&quot;,
+    &quot;Description&quot;: &quot;Lowest position in category&quot;,
+    &quot;Price&quot;: 0.0,
+    &quot;MinimumPhotoCount&quot;: 0
+  },
+  {
+    &quot;Id&quot;: 2,
+    &quot;Name&quot;: &quot;Gallery&quot;,
+    &quot;Description&quot;: &quot;Good position in category&quot;,
+    &quot;Price&quot;: 2.0,
+    &quot;OriginalPrice&quot;: 2.0,
+    &quot;MinimumPhotoCount&quot;: 0
+  },
+  {
+    &quot;Id&quot;: 3,
+    &quot;Name&quot;: &quot;Feature&quot;,
+    &quot;Description&quot;: &quot;Better position in category&quot;,
+    &quot;Price&quot;: 10.0,
+    &quot;OriginalPrice&quot;: 10.0,
+    &quot;Recommended&quot;: true,
+    &quot;MinimumPhotoCount&quot;: 0
+  },
+  {
+    &quot;Id&quot;: 4,
+    &quot;Name&quot;: &quot;Feature Combo&quot;,
+    &quot;Description&quot;: &quot;Best position in category \nIncludes benefits of Feature \nHighlights listing in search results&quot;,
+    &quot;Price&quot;: 15.0,
+    &quot;OriginalPrice&quot;: 15.0,
+    &quot;MinimumPhotoCount&quot;: 0
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def java_result = new javaMethods().testprint();</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def java_result = javaMethods.testprint();</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print java_result</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35">23:35:12.009 [print] Hello! 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
