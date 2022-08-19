@@ -3,7 +3,7 @@ Automation test which is to validate an API endpoint.
 
 ## Test Automation Framework and its Design
 This API test automation is using the popular Karate framework. Karate is an open-source framework for API Test automation that uses BDD style syntax.  
-Karate framework saves its scenarios in a feature files.  On this project, the test objective is to validate the following test:
+Karate framework saves its scenarios in feature files.  On this project, the test objective is to validate the following test:
 
 API endpoint url: https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
 Acceptance Criteria:
