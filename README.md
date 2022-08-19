@@ -35,6 +35,11 @@ Eclipse IDE for Java Developers
 Clone this Git Project to local machine
 Make sure to use or install Java JDK 1.8 for this project
 ```
+```sh
+cd dillinger
+npm i
+node app
+```
 
 ## How to Setup
       * Cloning this Git Project to local machine
