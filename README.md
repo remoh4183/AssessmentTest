@@ -29,12 +29,14 @@ Acceptance Criteria:
 On this project, all scenarios are placed under one feature file. 
 User should be able to see the "assurity.feature" file under "src/test/java"/"features" package.
 
-# Requirements
-      * Eclipse IDE for Java Developers
-      * Clone this Git Project to local machine
-      * Make sure to use or install Java JDK 1.8 for this project
+## Requirements
+```sh
+Eclipse IDE for Java Developers
+Clone this Git Project to local machine
+Make sure to use or install Java JDK 1.8 for this project
+```
 
-# How to Setup
+## How to Setup
       * Cloning this Git Project to local machine
             1. On this Git Project, click the clone button and copy the HTTPS clone link
             2. Open Eclipse and clone the project by following the steps below:
