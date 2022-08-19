@@ -26,6 +26,7 @@ User should be able to see the "assurity.feature" file under "src/test/java"/"fe
 Cloning this Git Project to local machine
 1. On this Git Project, click the clone button and copy the HTTPS clone link
 2. Open Eclipse and clone the project by following the steps below:
+```sh
 - Select the workspace folder
 - File > Import > Git > Projects from Git, then click Next button
 - Select Clone URI and click Next button
@@ -35,8 +36,9 @@ Cloning this Git Project to local machine
 - Directory field should be autopopulated. If you have to use different parent folder, then change and click Next button
 - Cloning process should start and once done, click Next button
 - Click Finish button
-3. Project should now in the Project Explorer Bar
-4. Check if JRE System Library is atleast version 1.8.  If not, do the steps below:
+```
+4. Project should now in the Project Explorer Bar
+5. Check if JRE System Library is atleast version 1.8.  If not, do the steps below:
 - Right click on the project > Build Path > Configure Build Path
 - On Libraries tab, select the current JRE System Library and click Remove button
 - Click Add Library button
