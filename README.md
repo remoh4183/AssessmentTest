@@ -1,4 +1,4 @@
-## AssessmentTest
+## AssessmentTest Project
 Automation test which is to validate an API endpoint.
 
 ## Test Automation Framework and its Design
@@ -37,20 +37,22 @@ Cloning this Git Project to local machine
 2.8. Cloning process should start and once done, click Next button
 2.9. Click Finish button
 ```
-4. Project should now in the Project Explorer Bar
-5. Check if JRE System Library is atleast version 1.8.  If not, do the steps below:
-- Right click on the project > Build Path > Configure Build Path
-- On Libraries tab, select the current JRE System Library and click Remove button
-- Click Add Library button
-- Select JRE System Library and click Next
-- On the Select Alternate JRE field,  select JDK 1.8.... If not available, click Installed JREs
-- Click Add button
-- Select Standard VM and click Next button
-- Click Directory button and locate the java jdk 1.8 folder then click Finish button
-- Make sure that the newly added jdk 1.8 is selected as the new JRE
-- Click Apply and Close button then Click Finish button
-- On the Libraries tab, JRE System Library should now indicate jdk 1.8
-- Click Apply and Close button
+3. Project should now in the Project Explorer Bar
+4. Check if JRE System Library is atleast version 1.8.  If not, do the steps below:
+```sh
+4.1. Right click on the project > Build Path > Configure Build Path
+4.2. On Libraries tab, select the current JRE System Library and click Remove button
+4.3. Click Add Library button
+4.4. Select JRE System Library and click Next
+4.5. On the Select Alternate JRE field,  select JDK 1.8.... If not available, click Installed JREs
+4.6. Click Add button
+4.7. Select Standard VM and click Next button
+4.8. Click Directory button and locate the java jdk 1.8 folder then click Finish button
+4.9. Make sure that the newly added jdk 1.8 is selected as the new JRE
+4.10. Click Apply and Close button then Click Finish button
+4.11. On the Libraries tab, JRE System Library should now indicate jdk 1.8
+4.12. Click Apply and Close button
+```
 
 ## How to Run
 Using Eclipse IDE, you should be able to quicly execute the test execution.
