@@ -1,4 +1,4 @@
-## AssessmentTest
+## _AssessmentTest
 Automation test which is to validate an API endpoint.
 
 ## Test Automation Framework and its Design
