@@ -15,8 +15,7 @@ AngularJS-powered HTML5 Markdown editor.
 ## Features
 
 ## AssessmentTest
-      Automation test which is to validate an API endpoint.
-      Automation abled, mobile-ready, offline-storage compatible,
+Automation test which is to validate an API endpoint.
 
 ## Test Automation Framework and its Design
       This API test automation is using the popular Karate framework. Karate is an open-source framework for API Test automation that uses BDD style syntax.  
