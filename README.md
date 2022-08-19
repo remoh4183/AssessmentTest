@@ -1,19 +1,4 @@
-# Dillinger
-## _The Last Markdown Editor, Ever_
-
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
-
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
-
-
-## AssessmentTest
+## _AssessmentTest
 Automation test which is to validate an API endpoint.
 
 ## Test Automation Framework and its Design
@@ -35,9 +20,9 @@ User should be able to see the "assurity.feature" file under "src/test/java"/"fe
 - Make sure to use or install Java JDK 1.8 for this project
 
 ## How to Setup
-      * Cloning this Git Project to local machine
-            1. On this Git Project, click the clone button and copy the HTTPS clone link
-            2. Open Eclipse and clone the project by following the steps below:
+Cloning this Git Project to local machine
+1. On this Git Project, click the clone button and copy the HTTPS clone link
+2. Open Eclipse and clone the project by following the steps below:
                   2.1 Select the workspace folder
                   2.2 File > Import > Git > Projects from Git, then click Next button
                   2.3 Select Clone URI and click Next button
