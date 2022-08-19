@@ -1,4 +1,4 @@
-## _AssessmentTest
+## AssessmentTest
 Automation test which is to validate an API endpoint.
 
 ## Test Automation Framework and its Design
@@ -8,8 +8,10 @@ Karate framework saves its scenarios in feature files.  On this project, the tes
 API endpoint url: https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
 
 Acceptance Criteria:
-- Name = "Carbon credits"
-- CanRelist = true
+```sh
+Name = "Carbon credits"
+CanRelist = true
+```
 - The Promotions element with Name = "Gallery" has a Description that contains the text "Good position in category"
       
 On this project, all scenarios are placed under one feature file. 
