@@ -5,8 +5,10 @@
 
 Feature: Test Assurity API
 
+	
+
   Scenario: Verify Name
-    Given url 'https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false'
+  	Given url apiUrl
     When method GET
     Then status 200
     * def jsonResponse = response
@@ -14,7 +16,7 @@ Feature: Test Assurity API
     * match actualName == 'Carbon credits' 
     
   Scenario: Verify CanRelist
-    Given url 'https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false'
+    Given url apiUrl
     When method GET
     Then status 200
     * def jsonResponse = response
@@ -22,7 +24,7 @@ Feature: Test Assurity API
     * match actualCanRelist == true 
     
 	Scenario: Verify the Promotions element with Name = Gallery	
-    Given url 'https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false'
+    Given url apiUrl
     When method GET
     Then status 200
     * def actualPromotions = response.Promotions
