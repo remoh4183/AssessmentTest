@@ -12,21 +12,22 @@ AngularJS-powered HTML5 Markdown editor.
 - See HTML in the right
 - ✨Magic ✨
 
-## Features
 
 ## AssessmentTest
 Automation test which is to validate an API endpoint.
 
 ## Test Automation Framework and its Design
-      This API test automation is using the popular Karate framework. Karate is an open-source framework for API Test automation that uses BDD style syntax.  
-      Karate framework saves its scenarios in a feature files.  On this project, the test objective is to validate the following test:
-            API endpoint url: https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
-            Acceptance Criteria:
-                  1. Name = "Carbon credits"
-                  2. CanRelist = true
-                  3. The Promotions element with Name = "Gallery" has a Description that contains the text "Good position in category"
-      On this project, all scenarios are placed under one feature file. 
-      User should be able to see the "assurity.feature" file under "src/test/java"/"features" package.
+This API test automation is using the popular Karate framework. Karate is an open-source framework for API Test automation that uses BDD style syntax.  
+Karate framework saves its scenarios in a feature files.  On this project, the test objective is to validate the following test:
+
+API endpoint url: https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
+Acceptance Criteria:
+- Name = "Carbon credits"
+- CanRelist = true
+- The Promotions element with Name = "Gallery" has a Description that contains the text "Good position in category"
+      
+On this project, all scenarios are placed under one feature file. 
+User should be able to see the "assurity.feature" file under "src/test/java"/"features" package.
 
 # Requirements
       * Eclipse IDE for Java Developers
