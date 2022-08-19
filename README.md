@@ -27,15 +27,15 @@ Cloning this Git Project to local machine
 1. On this Git Project, click the clone button and copy the HTTPS clone link
 2. Open Eclipse and clone the project by following the steps below:
 ```sh
-- Select the workspace folder
-- File > Import > Git > Projects from Git, then click Next button
-- Select Clone URI and click Next button
-- On the URI field, paste the Git HTTPS clone link from step 1. (Host and Repository Path should automatically populated after filling the URI field.)
-- Click Next button
-- Make sure that main branch is checked.  Then click Next button
-- Directory field should be autopopulated. If you have to use different parent folder, then change and click Next button
-- Cloning process should start and once done, click Next button
-- Click Finish button
+2.1 Select the workspace folder
+2.2 File > Import > Git > Projects from Git, then click Next button
+2.3 Select Clone URI and click Next button
+2.4 On the URI field, paste the Git HTTPS clone link from step 1. (Host and Repository Path should automatically populated after filling the URI field.)
+2.5 Click Next button
+2.6 Make sure that main branch is checked.  Then click Next button
+2.7 Directory field should be autopopulated. If you have to use different parent folder, then change and click Next button
+2.8 Cloning process should start and once done, click Next button
+2.9 Click Finish button
 ```
 4. Project should now in the Project Explorer Bar
 5. Check if JRE System Library is atleast version 1.8.  If not, do the steps below:
